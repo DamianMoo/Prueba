@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <h1 class="titulo">Registrar</h1>
+        <ul class="flex-outer">
+          <li>
+            <label for="first-name" name="name" class="let">Nombre Completo</label>
+            <input type="text" id="first-name" name="name">
+          </li>
+        
+          <li>
+            <label for="email" name="email">Email</label>
+            <input type="email" id="email" name="email">
+          </li>
+          <li>
+            <label for="nombre" pattern="[a-zA-Z0-9]+"  name="users" class="let" required>Nombre De Usuario</label>
+            <input type="text" id="password" name="users">
+          </li>
+          <li>
+            <label for="contrasena" name="password">Contraseña</label>
+            <input type="password" name="contrasena" required />
+          </li>
+         
+            
+          <li>
+            ¿Ya tines cuenta? <a href="Login.php">Entra Aqui!</a>
+
+            <input type="submit" name="register" >
+            
+          </li>
+        </ul>
+      </form>
+</body>
+</html>
